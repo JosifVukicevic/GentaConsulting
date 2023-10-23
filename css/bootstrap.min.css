@@ -2239,7 +2239,7 @@ progress {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     appearance: none;
-    border-radius: .25rem;
+    border-radius: .75rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
 }
 
