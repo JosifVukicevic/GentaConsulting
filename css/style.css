@@ -280,3 +280,25 @@ div > a > small:hover {
     cursor: pointer;
     color: red;
 }
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 25%;
+}
+
+.txtLink-slider:hover {
+    color: rgb(0,15,48);
+    cursor: pointer;
+}
+
+.carousel-item img {
+    height: 900px;
+}
+
+.list-for-blog li span {
+    font-weight: bold;
+    color: black;
+} 

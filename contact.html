@@ -61,7 +61,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.html" class="logo"><img src="Images/logo.png" class="logo_header" alt="Error"></a>
+        <a href="index.html" class="logo"><img src="Images/logo.jpg" class="logo_header" alt="Error"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,7 +72,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                     <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Svi blogovi</a>
+                        <!-- blog . html je stranica Svi blogovi-->
+                        <a href="#" class="dropdown-item">Svi blogovi</a>
                         <a href="detail.html" class="dropdown-item">Poslednji blog</a>
                     </div>
                 </div>
@@ -106,15 +107,14 @@
     </div>
     <!-- Page Header End -->
 
-
     <!-- Contact Start -->
     <div class="container-fluid bg-secondary px-0">
         <div class="row g-0">
-            <div class="col-lg-6 py-6 px-5">
+            <div class="col-lg-6 py-6 px-5 centered">
                 <h1 class="display-5 mb-4">Kontaktirajte nas!</h1>
                 <form>
                     <div class="row g-3">
-                        <div class="col-6">
+                        <div class="col-6 ">
                             <div class="form-floating">
                                 <input type="text" class="form-control" id="ime_prezime" placeholder="Marko Markovic">
                                 <label for="form-floating-1">Ime i prezime</label>
@@ -156,33 +156,17 @@
                     </div>
                 </form>
             </div>
+            <!--
             <div class="col-lg-6" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <!--
+                    
                     <iframe class="position-relative w-100 h-100"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    -->
-
-                    <div id="map" style="height: 400px; width: 100%;"></div>
-
-                    <script>
-                        function initMap() {
-                            var map = new google.maps.Map(document.getElementById("map"), {
-                            center: { lat: 42.50892871386259, lng: 19.134871407404 },
-                            zoom: 8,
-                        });
-
-                        var myLatLng = { lat: 42.50892871386259, lng: 19.134871407404 };
-                        var marker = new google.maps.Marker({
-                                            position: myLatLng,
-                                            map: map,
-                                            title: "DDI Trade"
-                        });
-                        }
-                    </script>
+                    
                 </div>
             </div>
+            -->
         </div>
     </div>
     <!-- Contact End -->
@@ -217,11 +201,9 @@
             <div class="col-lg-3 col-md-6">
                 <h3 class="text-white mb-4">Popularni blogovi</h3>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Blog 1</a>
-                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Blog 2</a>
-                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Blog 3</a>
-                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Blog 4</a>
-                    <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Blog 5</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Od snova do stvarnosti</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Brendiranje sa stilom</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Marketing za MSP</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
