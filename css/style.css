@@ -302,3 +302,36 @@ div > a > small:hover {
     font-weight: bold;
     color: black;
 } 
+
+#hiddenText-forAbout {
+    display: none;
+}
+
+.textUp {
+    font-size: 20px;
+}
+
+
+.border-radius {
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#resiD {
+    height: 55px;
+}
+
+#email_subscribe {
+    height: 55px;
+}
+
+#sendToContact:hover {
+    color: chocolate;
+}
