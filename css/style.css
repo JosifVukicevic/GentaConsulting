@@ -149,7 +149,7 @@ h6,
 .service-item {
     position: relative;
     overflow: hidden;
-    height: 350px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,7 +313,7 @@ div > a > small:hover {
 
 
 .border-radius {
-    border-radius: 20px;
+    border-radius: 50rem;
     margin-right: 10px;
 }
 
@@ -334,4 +334,128 @@ div > a > small:hover {
 
 #sendToContact:hover {
     color: chocolate;
+}
+
+#rSizeForIcons {
+    width: 50%;
+    height: auto;
+}
+
+.partneri-container {
+    background-color: rgb(0,15,48);
+    padding: 30px;
+    position: relative; 
+}
+
+.prev-btn,
+.next-btn {
+    display: none;
+}
+
+/* Na hover .partneri-container, dugmad će postati vidljiva */
+.partneri-container:hover .prev-btn,
+.partneri-container:hover .next-btn {
+    display: block;
+}
+
+.partneri-slideshow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.partneri-images {
+    display: flex;
+    transition: transform 0.5s ease;
+    align-items: center;
+}
+
+.partneri-images img {
+    margin: 0 40px;
+    /* max-width: 100%; */
+    height: auto;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border: none;
+    border-radius: 3rem;
+    color: rgb(0,15,48);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    z-index: 1;
+}
+
+.prev-btn {
+    left: 30px;
+}
+
+.next-btn {
+    right: 30px;
+}
+/*
+#ef_logo {
+    width: 181px;
+    height: 181px;
+}
+*/
+#ef_logo {
+    width: calc(181px - (181px / 3));
+    height: calc(181px - (181px / 3));
+}
+
+#ekomen_logo {
+    width: calc(403px - (403px / 3));
+    height: calc(137px - (137px / 3));
+}
+
+#molekul_logo {
+    width: calc(484px - (484px / 3));
+    height: calc(109px - (109px / 3));
+}
+
+#opstina_logo {
+    width: calc(146px - (146px / 3));
+    height: calc(181px - (181px / 3));
+}
+
+#osmiRed_logo {
+    width: calc(136px - (136px / 3));
+    height: calc(181px - (181px / 3));
+}
+
+#bulatovic_logo {
+    width: calc(354px - (354px / 3));
+    height: calc(108px - (108px / 3));
+}
+  
+#draskovic_logo {
+    width: calc(416px - (416px / 3));
+    height: calc(213px - (213px / 3));
+}
+
+#pk10_logo {
+    width: calc(494px - (494px / 3));
+    height: calc(79px - (79px / 3));
+}
+
+#tkpg_logo {
+    width: calc(232px - (232px / 3));
+    height: calc(137px - (137px / 3));
+}
+
+#ekonomiste_logo {
+    width: calc(213px - (213px / 3));
+    height: calc(213px - (213px / 3));
+}
+
+#djurovic_logo {
+    width: calc(330px - (330px / 3));
+    height: calc(213px - (213px / 3));
 }
